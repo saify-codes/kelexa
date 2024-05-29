@@ -588,21 +588,6 @@ button span {
   margin-top: 0px;
 }
 
-footer {
-  width: 100%;
-  height: 6rem;
-  background-color: var(--black-color);
-  font-family: "Poppins";
-  color: var(--white-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer p span {
-  color: var(--secondary-color);
-}
-
 .border-center {
   width: 900px;
   height: 3px;
@@ -778,6 +763,83 @@ footer p span {
     transform: translateX(-100%);
   }
 }
+
+#picassoFooter {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  font-family: "Poppins";
+}
+
+#picassoFooter  > div{
+  flex: 1 1 25%;
+}
+
+.footer-contact p{
+  margin-bottom: 1rem;
+}
+
+.footer-navigation, 
+.footer-contact,
+.footer-social {
+  padding: 1rem;
+}
+
+.footer-navigation h3, 
+.footer-contact h3, 
+.footer-social h3 {
+  color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+.footer-navigation ul,
+.footer-social .social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-navigation ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.social-icon {
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon {
+  color: #000;
+  text-decoration: none;
+}
+
+.social-icon {
+  display: inline-grid;
+  padding: 8px;
+  background-color: #EBFF00;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  place-content: center;
+}
+
+.social-icon:hover,
+.footer-navigation ul li a:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+  #picassoFooter {
+      flex-direction: column;
+      align-items: start;
+  }
+}
+
 
 @keyframes slider-reverse {
   0% {

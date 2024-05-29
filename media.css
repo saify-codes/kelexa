@@ -55,7 +55,7 @@
     }
 
     .paragraph button {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 
     .paragraph button span {
@@ -87,7 +87,7 @@
     }
 
     .testimonial-button {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 
     .testimonial-button span {
@@ -142,10 +142,6 @@
 
     .faq-heading {
         padding: 0 10px;
-    }
-
-    footer p {
-        font-size: 0.9rem;
     }
 
     .comments img {
