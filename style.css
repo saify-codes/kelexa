@@ -10,6 +10,7 @@
   --light-main-color: #fb0707;
   --light-secondary-color: rgba(232, 181, 3, 0.1);
   --time: 10s;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -33,13 +34,14 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 header nav .logo {
   font-weight: 400;
 }
 
-header nav a {
+header nav .nav-btn {
   font-family: "Inter" !important;
   font-size: 13px;
   text-transform: uppercase;
@@ -60,6 +62,18 @@ header nav button:hover {
   background-color: transparent;
   color: var(--main-color);
   font-weight: 700;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  gap: 1rem;
+}
+
+header nav ul .nav-link{
+  text-decoration: none;
+  color: #000;
 }
 
 /*  MAIN SECTION */
