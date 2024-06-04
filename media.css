@@ -24,8 +24,7 @@
 
     main {
         text-align: center !important;
-        padding: 0 20px !important;
-        height: 85vh !important;
+        padding: 3rem 20px !important;
     }
 
     main h1 {
@@ -189,6 +188,6 @@
     }
 
     .paragraph{
-        margin-top: 5rem !important;
+        margin-top: 10rem !important;
     }
 }
